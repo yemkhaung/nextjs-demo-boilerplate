@@ -5,7 +5,15 @@ import Nav from "./Nav";
 
 const StyledHeader = styled.div`
   .bar {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: stretch;
     border-bottom: 10px solid ${props => props.theme.black};
+    @media (max-width: 1300px) {
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
   }
   .sub-bar {
     border-bottom: 1px solid ${props => props.theme.lightgrey};
@@ -37,7 +45,7 @@ const Header = () => {
       <div className="bar">
         <Logo>
           <Link href="/">
-            <a>Shop Demo</a>
+            <a>D-qlo</a>
           </Link>
         </Logo>
         <Nav />
