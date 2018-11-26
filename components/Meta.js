@@ -7,7 +7,7 @@ const Meta = () => {
       <meta charSet="utf-8" />
       <link rel="shortcut icon" href="/static/favicon.png" />
       <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
-      <title>Shop Demo!</title>
+      <title>D-Qlo | Shopping App Demo</title>
     </Head>
   );
 };
